@@ -294,7 +294,7 @@ Enter choice: 1
 Student ID: 24BCE10149
 Registration Number: 24BCE10149
 Full Name: Rishi Raj
-Email: rishi@gmail.com
+Email: rishi.24bce10149@vitbhopal.ac.in
 
 ✅ Student added successfully!
 
