@@ -1,11 +1,9 @@
-# -Campus-Course-Records-Manager-CCRM-
-
 # Campus Course & Records Manager (CCRM)
 
-**Author:** Rishi Raj  
+**Name:** Rishi Raj  
 **Registration Number:** 24BCE10149  
 **Course:** Programming in Java  
-**Institution:** VIT University  
+**Institution:** Vellore Institute of Technology (VIT)
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -124,48 +122,6 @@ javac -version
 - Right-click project → Properties → Java Build Path
 - Ensure correct JRE is selected
 
-## Project Structure
-CCRM/
-├── src/
-│ └── edu/ccrm/
-│ ├── cli/ # Command Line Interface
-│ │ ├── CCRMApplication.java
-│ │ └── MenuHandler.java
-│ ├── domain/ # Domain Objects
-│ │ ├── Person.java (abstract)
-│ │ ├── Student.java
-│ │ ├── Instructor.java
-│ │ ├── Course.java
-│ │ ├── Enrollment.java
-│ │ ├── Grade.java (enum)
-│ │ ├── Semester.java (enum)
-│ │ └── exceptions/
-│ ├── service/ # Business Logic
-│ │ ├── interfaces/
-│ │ │ ├── Persistable.java
-│ │ │ └── Searchable.java
-│ │ ├── StudentService.java
-│ │ ├── CourseService.java
-│ │ └── EnrollmentService.java
-│ ├── io/ # File Operations
-│ │ ├── ImportExportService.java
-│ │ ├── BackupService.java
-│ │ └── CSVParser.java
-│ ├── util/ # Utilities
-│ │ ├── ValidationUtils.java
-│ │ ├── DateTimeUtils.java
-│ │ └── RecursiveUtils.java
-│ └── config/ # Configuration
-│ └── AppConfig.java (Singleton)
-├── data/ # Data files
-│ ├── students.csv
-│ └── courses.csv
-├── backups/ # Backup directory
-├── screenshots/ # Project screenshots
-├── README.md
-└── USAGE.md
-
-
 ## Features
 
 ### Core Functionality
@@ -257,7 +213,8 @@ public interface Searchable<T> {
 
 ### Compilation & Execution
 Clone the repository
-git clone https://github.com/RishiRaj24BCE10149/CCRM.git
+git clone https://github.com/yourusername/-Campus-Course-Records-Manager-CCRM-
+
 cd CCRM
 
 Compile (if using command line)
@@ -279,11 +236,24 @@ java -ea -cp src edu.ccrm.cli.CCRMApplication
 
 📸 **Screenshot Directory**: `/screenshots/`
 - `java-installation.png` - JDK installation verification
-- `eclipse-setup.png` - Eclipse project configuration  
-- `application-menu.png` - Main application interface
+<img width="1040" height="241" alt="image" src="https://github.com/user-attachments/assets/a701276e-810a-4a1c-885d-f85c3271a349" />
+
+
+  
+- `eclipse-setup.png` - Eclipse project configuration
+<img width="907" height="984" alt="image" src="https://github.com/user-attachments/assets/a1efe1e9-be42-4e3f-99cd-0bcdca51004a" />
+
+  
+- `Project Structure.png` - Project Structure
+<img width="486" height="607" alt="image" src="https://github.com/user-attachments/assets/4f76f24b-d83f-47d9-883c-b8e72afe2150" />
+
+
 - `student-management.png` - Student operations demo
-- `file-operations.png` - Import/Export functionality
-- `backup-structure.png` - Generated backup directory
+<img width="745" height="865" alt="image" src="https://github.com/user-attachments/assets/8c3f4e8f-9dcb-401d-9a26-21ad1badbb3d" />
+
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ebf7d04f-b6a9-4874-8d10-f2967ed9dc34" />
+
 
 ## Syllabus Mapping
 
@@ -309,27 +279,23 @@ java -ea -cp src edu.ccrm.cli.CCRMApplication
 === CCRM Main Menu ===
 
 Manage Students
-
 Manage Courses
-
 Manage Enrollments
-
 Manage Grades
-
 Import/Export Data
-
 Reports
-
 Backup Data
-
 Exit
 
+
 Example: Adding a student
+
 Enter choice: 1
 Student ID: 24BCE10149
 Registration Number: 24BCE10149
 Full Name: Rishi Raj
 Email: rishi@gmail.com
+
 ✅ Student added successfully!
 
 
