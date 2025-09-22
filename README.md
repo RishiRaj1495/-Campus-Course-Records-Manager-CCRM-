@@ -212,9 +212,10 @@ public interface Searchable<T> {
 - Windows/Linux/macOS
 
 ### Compilation & Execution
- Clone the repository
+Clone the repository
+```bash
 git clone https://github.com/yourusername/-Campus-Course-Records-Manager-CCRM-
-
+```
 cd CCRM
 
 Compile (if using command line)
